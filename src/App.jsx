@@ -1,16 +1,20 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+import Testimonials from "./Testimonials";
+import Quote from "./Quote";
+
 function App() {
   return (
     <>
-        <header>
-          {/* <div className="background"></div> */}
-          <h1>Triple Striping Construction</h1>
-          <nav className="link-list">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Testimonials</li>
-            <li>Request a Quote</li>
-          </nav>
-        </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/quote" element={<Quote />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
