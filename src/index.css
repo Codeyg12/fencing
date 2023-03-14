@@ -44,6 +44,7 @@ h1 {
 
 li {
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 li:hover {
