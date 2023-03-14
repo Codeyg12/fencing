@@ -1,14 +1,11 @@
 function App() {
-return (
-  <>
-  <div className="background">
-
-  <header>
-    <h1>Triple Striping Construction</h1>
-  </header>
-  </div>
-  </>
-)
+  return (
+    <>
+        <header className="background">
+          <h1>Triple Striping Construction</h1>
+        </header>
+    </>
+  );
 }
 
-export default App
+export default App;
