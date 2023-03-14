@@ -26,13 +26,13 @@
 } */
 
 h1 {
-  color: rgb(36, 68, 7);  
+  color: rgb(36, 68, 7);
   font-size: 6rem;
   /* line-height: 0.9; */
   letter-spacing: 2px;
   text-align: center;
   -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: black;
 }
 
 .link-list {
@@ -42,12 +42,14 @@ h1 {
   justify-content: space-around;
 }
 
-li {
+a {
+  text-decoration: none;
   font-size: 2rem;
   text-transform: uppercase;
+  color: black;
 }
 
-li:hover {
+a:hover {
   color: rgb(36, 68, 7);
-  opacity: .7;
+  opacity: 0.7;
 }
