@@ -1,9 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Enter from './Enter'
-import Home from "./Home";
-import About from "./About";
-import Testimonials from "./Testimonials";
-import Quote from "./Quote";
+import Enter from './pages/Enter'
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Testimonials from "./pages/Testimonials";
+import Quote from "./pages/Quote";
+
+// import {} from './pages'
 
 function App() {
   return (
