@@ -1,11 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Enter from './pages/Enter'
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Testimonials from "./pages/Testimonials";
-import Quote from "./pages/Quote";
-
-// import {} from './pages'
+import { Enter, About, Testimonials, Quote, Home } from './pages'
 
 function App() {
   return (
